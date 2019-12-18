@@ -1,10 +1,9 @@
-@import 'reset';
 @import 'variables';
 @import 'headings';
 @import 'nav';
 
 html {
-   background: url('img/fiber.jpg');
+   background: url('../img/fiber.jpg');
 }
 
 body {
@@ -20,4 +19,36 @@ body {
 
 @media (max-width: $width--tablet) {
    width: $width--mobile;
+}
+
+img {
+   width: 500px;
+   height: 500px;
+}
+
+.one {
+   margin-left: 47px;
+   width: 60vw;
+   height: 60vh;
+}
+
+.second {
+   margin-left: 35px;
+   width: 62vw;
+   height: 64vh;
+}
+
+.third {
+   margin-left: 50px;
+   width: 60vw;
+   height: 60vh;
+}
+
+div {
+   color: $color--text;
+   background-color: $color--backgrnd;
+   font-family: $font-stack--text;
+   font-size: 1.3rem;
+   padding: 30px;
+   line-height: 30px;
 }
