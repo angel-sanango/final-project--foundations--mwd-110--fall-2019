@@ -6,11 +6,12 @@ nav ul li {
    line-height: 20px;
 }
 
-a {
+#{$a-tags} {
+   color: $color--link;
+   font-size: 1em;
    text-decoration: none;
-   color: $color--text;
 }
 
-a:hover {
-   background-color: $color--highlight;
+#{$a-tags-hover} {
+   color: $color--hover;
 }
