@@ -1,0 +1,23 @@
+@import 'reset';
+@import 'variables';
+@import 'headings';
+@import 'nav';
+
+html {
+   background: url('img/fiber.jpg');
+}
+
+body {
+   margin: auto;
+   background-color: $color--backgrnd;
+   color: $color--text;
+   width: $width--desktop;
+}
+
+@media (max-width: $width--desktop) {
+   width: $width--tablet;
+}
+
+@media (max-width: $width--tablet) {
+   width: $width--mobile;
+}
