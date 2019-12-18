@@ -52,7 +52,7 @@ img {
 }
 
 .row::after {
-   content: "";
+   content: '';
    clear: both;
    display: table;
 }
